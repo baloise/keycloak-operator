@@ -1,5 +1,6 @@
 FROM gitpod/workspace-full
 
+USER root
 # Install net tools like netstat...
 #
 RUN apt-get update \
